@@ -1,0 +1,6 @@
+framework module Pods_diplomovka_rn2Tests {
+  umbrella header "Pods-diplomovka_rn2Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

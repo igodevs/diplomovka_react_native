@@ -1,0 +1,37 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'diplomovka_rn2' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+   use_frameworks!
+
+  # Pods for diplomovka_rn2
+#   pod 'React', :path => '../node_modules/react-native'
+# pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+# pod 'React', :path => '../node_modules/react-native', :subspecs => [
+#   'RCTImage', # <-- Add RCTImage
+# ]
+  # target 'diplomovka_rn2-tvOSTests' do
+  #   inherit! :search_paths
+  #   # Pods for testing
+  # end
+
+  target 'diplomovka_rn2Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'diplomovka_rn2-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for diplomovka_rn2-tvOS
+
+  target 'diplomovka_rn2-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
